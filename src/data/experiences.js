@@ -30,7 +30,7 @@ export const experiences = [
     type: 'work',
     organization: { pt: 'Vitacea', en: 'Vitacea' },
     role: { pt: 'Auxiliar Administrativo', en: 'Administrative Assistant' },
-    period: { pt: 'Experiência anterior', en: 'Previous experience' },
+    period: { pt: '1 ano', en: '1 year' },
     current: false,
     description: {
       pt: 'Atuei nas rotinas administrativas da empresa. Foi onde comecei a usar programação no dia a dia, criando automações em Python para tarefas repetitivas, como envio de mensagens e emissão de notas fiscais.',
@@ -43,7 +43,7 @@ export const experiences = [
     type: 'exchange',
     organization: { pt: 'Intercâmbio nos Estados Unidos', en: 'Exchange program in the United States' },
     role: { pt: 'Estudante de intercâmbio', en: 'Exchange student' },
-    period: { pt: '6 meses', en: '6 months' },
+    period: { pt: 'Jul 2024 — Dez 2024', en: 'Jul 2024 — Dec 2024' },
     current: false,
     description: {
       pt: 'Morei seis meses nos EUA estudando. A experiência desenvolveu meu inglês, minha autonomia e a capacidade de me adaptar a culturas e ambientes diferentes.',
