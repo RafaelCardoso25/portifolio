@@ -52,7 +52,7 @@ function ProfileCard() {
       initial={{ opacity: 0, y: 30, rotate: 1.5 }}
       animate={{ opacity: 1, y: 0, rotate: 0 }}
       transition={{ duration: 0.8, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
-      className="card relative w-full overflow-hidden shadow-2xl shadow-black/60"
+      className="card relative w-full overflow-hidden bg-ink-900 shadow-2xl shadow-black/70"
     >
       <div className="flex items-center gap-2 border-b border-ink-700 px-4 py-3">
         <span className="h-3 w-3 rounded-full bg-ink-600" />
@@ -60,7 +60,7 @@ function ProfileCard() {
         <span className="h-3 w-3 rounded-full bg-accent" />
         <span className="ml-3 font-mono text-xs text-zinc-500">rafael.json</span>
       </div>
-      <pre className="overflow-x-auto p-5 font-mono text-[13px] leading-7 sm:text-sm">
+      <pre className="overflow-x-auto p-4 font-mono text-[12px] leading-6">
         <span className="text-zinc-500">{'{'}</span>
         {lines.map(([key, value], index) => (
           <div key={key} className="pl-4">
@@ -81,7 +81,7 @@ export default function About() {
 
   return (
     <>
-      <section className="container-page grid items-center gap-12 pb-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
+      <section className="container-page grid items-center gap-12 pb-32 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         <div>
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -149,7 +149,25 @@ export default function About() {
             <SocialLinks compact />
           </motion.div>
         </div>
-        <ProfileCard />
+        <div className="relative mx-auto w-full max-w-md pb-4 lg:max-w-none lg:pb-0">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="aspect-[4/5] overflow-hidden rounded-3xl border border-ink-700 bg-ink-900 lg:ml-12"
+          >
+            <img
+              src="/profile.jpg"
+              alt="Rafael Abi-Saber Cardoso"
+              className="h-full w-full object-cover object-top"
+              width="520"
+              height="641"
+            />
+          </motion.div>
+          <div className="relative -mt-20 px-4 sm:px-10 lg:absolute lg:-bottom-20 lg:-left-6 lg:mt-0 lg:w-[320px] lg:px-0">
+            <ProfileCard />
+          </div>
+        </div>
       </section>
 
       <section id="sobre" className="container-page border-t border-ink-800 pt-20">

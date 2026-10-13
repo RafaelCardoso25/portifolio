@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FaArrowUpRightFromSquare, FaGithub } from 'react-icons/fa6'
+import { FaArrowUpRightFromSquare, FaGithub, FaLock } from 'react-icons/fa6'
 import { useLanguage } from '../i18n/LanguageContext.jsx'
 
 export default function ProjectCard({ project, index }) {
@@ -53,9 +53,15 @@ export default function ProjectCard({ project, index }) {
             ))}
           </ul>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href={project.repo} target="_blank" rel="noreferrer" className="btn-ghost px-4 py-2">
-              <FaGithub /> {t.projects.repo}
-            </a>
+            {project.repo ? (
+              <a href={project.repo} target="_blank" rel="noreferrer" className="btn-ghost px-4 py-2">
+                <FaGithub /> {t.projects.repo}
+              </a>
+            ) : (
+              <span className="inline-flex items-center gap-2 rounded-xl border border-dashed border-ink-700 px-4 py-2 text-sm text-zinc-500">
+                <FaLock /> {t.projects.private}
+              </span>
+            )}
             {project.live && (
               <a href={project.live} target="_blank" rel="noreferrer" className="btn-primary px-4 py-2">
                 <FaArrowUpRightFromSquare /> {t.projects.live}

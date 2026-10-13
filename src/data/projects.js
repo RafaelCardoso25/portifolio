@@ -10,7 +10,7 @@ export const projects = [
     },
     tech: ['Python', 'Playwright', 'Asyncio', 'PowerShell'],
     image: '/projects/automacoes.gif',
-    repo: 'https://github.com/RafaelCardoso25',
+    repo: null,
     live: null,
   },
   {
@@ -44,16 +44,16 @@ export const projects = [
   {
     id: 'cotacompara',
     name: { pt: 'CotaCompara', en: 'CotaCompara' },
-    date: '2026-08-01',
-    period: { pt: 'Ago 2026', en: 'Aug 2026' },
+    date: '2026-06-07',
+    period: { pt: 'Jun 2026', en: 'Jun 2026' },
     description: {
       pt: 'Sistema de cotação que recebe orçamentos de diferentes fornecedores, identifica o produto mais barato em cada um e mostra quanto você vai economizar. Feito para quem compra de vários fornecedores e quer gastar o mínimo possível.',
       en: 'A quotation system that reads quotes from different suppliers, finds the cheapest product in each one and shows how much you will save. Built for businesses that buy from many suppliers and want to spend as little as possible.',
     },
     tech: ['React', 'Vite', 'Node.js', 'Express', 'Supabase', 'Render'],
     image: '/projects/cotacompara.gif',
-    repo: 'https://github.com/RafaelCardoso25',
-    live: null,
+    repo: 'https://github.com/RafaelCardoso25/comparacao-system',
+    live: 'https://cotacao-system.vercel.app',
   },
   {
     id: 'sites-empresas',
@@ -66,7 +66,7 @@ export const projects = [
     },
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Vercel'],
     image: '/projects/sites.gif',
-    repo: 'https://github.com/RafaelCardoso25',
+    repo: null,
     live: null,
   },
 ]
