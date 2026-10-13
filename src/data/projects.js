@@ -56,20 +56,6 @@ export const projects = [
     live: null,
   },
   {
-    id: 'api-clima',
-    name: { pt: 'API Clima', en: 'Weather API' },
-    date: '2026-08-24',
-    period: { pt: 'Ago 2026', en: 'Aug 2026' },
-    description: {
-      pt: 'Projeto acadêmico em dupla na PUC Minas: aplicação Java que consome uma API de previsão do tempo, trata a resposta e exibe as informações climáticas de uma cidade.',
-      en: 'Academic pair project at PUC Minas: a Java application that consumes a weather forecast API, parses the response and displays the weather of a given city.',
-    },
-    tech: ['Java', 'REST API', 'JSON'],
-    image: '/projects/api-clima.gif',
-    repo: 'https://github.com/RafaelCardoso25/API-clima',
-    live: null,
-  },
-  {
     id: 'sites-empresas',
     name: { pt: 'Sites para Empresas', en: 'Business Websites' },
     date: '2026-09-10',

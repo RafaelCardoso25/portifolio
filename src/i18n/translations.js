@@ -27,7 +27,7 @@ export const translations = {
       ],
       highlights: [
         { value: '2º', label: 'período de Engenharia de Software' },
-        { value: '6+', label: 'projetos desenvolvidos' },
+        { value: '5', label: 'projetos desenvolvidos' },
         { value: '6 meses', label: 'de intercâmbio nos EUA' },
       ],
       interestsTitle: 'Interesses',
@@ -128,7 +128,7 @@ export const translations = {
       ],
       highlights: [
         { value: '2nd', label: 'semester of Software Engineering' },
-        { value: '6+', label: 'projects built' },
+        { value: '5', label: 'projects built' },
         { value: '6 months', label: 'exchange program in the USA' },
       ],
       interestsTitle: 'Interests',
