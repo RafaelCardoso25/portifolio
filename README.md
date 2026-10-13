@@ -252,6 +252,7 @@ portifolio/
 │   └── wireframes/           # Protótipos de média fidelidade
 ├── public/
 │   ├── favicon.svg
+│   ├── profile.jpg           # Foto de perfil
 │   └── projects/             # GIFs dos projetos exibidos na timeline
 ├── src/
 │   ├── components/
