@@ -46,9 +46,9 @@ export const experiences = [
     period: { pt: 'Jul 2024 — Dez 2024', en: 'Jul 2024 — Dec 2024' },
     current: false,
     description: {
-      pt: 'Morei seis meses nos EUA estudando. A experiência desenvolveu meu inglês, minha autonomia e a capacidade de me adaptar a culturas e ambientes diferentes.',
-      en: 'I lived in the USA for six months as a student. The experience improved my English, independence and ability to adapt to different cultures and environments.',
+      pt: 'Morei cerca de seis meses nos EUA estudando. Depois de 7 anos de curso de inglês, a experiência consolidou minha fluência no idioma e desenvolveu minha autonomia e a capacidade de me adaptar a culturas e ambientes diferentes.',
+      en: 'I lived in the USA for about six months as a student. After 7 years of English courses, the experience made me fluent in the language and strengthened my independence and ability to adapt to different cultures and environments.',
     },
-    tags: ['English', 'Adaptabilidade'],
+    tags: ['Inglês fluente', 'Adaptabilidade'],
   },
 ]

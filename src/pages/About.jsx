@@ -43,6 +43,7 @@ function ProfileCard() {
     ['university', '"PUC Minas"'],
     ['city', '"Belo Horizonte"'],
     ['learning', '["Java", "Python"]'],
+    ['english', lang === 'pt' ? '"Fluente"' : '"Fluent"'],
     ['openToWork', 'true'],
   ]
 
@@ -173,7 +174,7 @@ export default function About() {
           </Reveal>
         </div>
 
-        <div className="mt-16 grid gap-4 md:grid-cols-2">
+        <div className="mt-16 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           <Reveal className="card p-6">
             <h3 className="text-lg font-semibold">{t.about.interestsTitle}</h3>
             <ul className="mt-4 flex flex-wrap gap-2">
@@ -185,6 +186,17 @@ export default function About() {
             </ul>
           </Reveal>
           <Reveal delay={0.08} className="card p-6">
+            <h3 className="text-lg font-semibold">{t.about.languagesTitle}</h3>
+            <ul className="mt-4 space-y-4">
+              {t.about.languages.map((language) => (
+                <li key={language.name}>
+                  <p className="text-sm font-medium text-zinc-100">{language.name}</p>
+                  <p className="mt-0.5 text-sm text-zinc-500">{language.level}</p>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+          <Reveal delay={0.16} className="card p-6 md:col-span-2 lg:col-span-1">
             <h3 className="text-lg font-semibold">{t.about.goalsTitle}</h3>
             <ul className="mt-4 space-y-3">
               {t.about.goals.map((goal) => (

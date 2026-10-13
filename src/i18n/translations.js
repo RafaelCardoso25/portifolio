@@ -28,11 +28,16 @@ export const translations = {
       highlights: [
         { value: '2º', label: 'período de Engenharia de Software' },
         { value: '5', label: 'projetos desenvolvidos' },
-        { value: '6 meses', label: 'de intercâmbio nos EUA' },
+        { value: 'Fluente', label: 'em inglês, com intercâmbio nos EUA' },
       ],
       interestsTitle: 'Interesses',
       interests: ['Java', 'Python', 'Desenvolvimento Web', 'Automação', 'Banco de Dados', 'Empreendedorismo'],
       stackTitle: 'Tecnologias que utilizo',
+      languagesTitle: 'Idiomas',
+      languages: [
+        { name: 'Português', level: 'Nativo' },
+        { name: 'Inglês', level: 'Fluente · 7 anos de curso e intercâmbio nos EUA' },
+      ],
       goalsTitle: 'Objetivos',
       goals: [
         'Fazer minha empresa de desenvolvimento crescer',
@@ -129,11 +134,16 @@ export const translations = {
       highlights: [
         { value: '2nd', label: 'semester of Software Engineering' },
         { value: '5', label: 'projects built' },
-        { value: '6 months', label: 'exchange program in the USA' },
+        { value: 'Fluent', label: 'in English, with an exchange in the USA' },
       ],
       interestsTitle: 'Interests',
       interests: ['Java', 'Python', 'Web Development', 'Automation', 'Databases', 'Entrepreneurship'],
       stackTitle: 'Technologies I use',
+      languagesTitle: 'Languages',
+      languages: [
+        { name: 'Portuguese', level: 'Native' },
+        { name: 'English', level: 'Fluent · 7 years of English courses and an exchange in the USA' },
+      ],
       goalsTitle: 'Goals',
       goals: [
         'Grow my software development company',
