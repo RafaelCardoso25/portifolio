@@ -60,7 +60,7 @@ O site tem quatro páginas, acessadas pelo menu de navegação:
 1. **Sobre Mim:** apresentação em português e inglês, com formação, área de atuação, interesses, objetivos e tecnologias.
 2. **Projetos:** linha do tempo do projeto mais antigo ao mais recente. Cada projeto tem nome, descrição, tecnologias, link para o GitHub e um GIF do projeto em funcionamento.
 3. **Experiências:** experiência profissional, formação e intercâmbio, cada uma com instituição, cargo/atividade, período e descrição.
-4. **Contato:** ícones clicáveis (e-mail, WhatsApp, LinkedIn e GitHub) e formulário com nome, e-mail e mensagem, enviado por e-mail.
+4. **Contato:** ícones clicáveis (e-mail, WhatsApp e GitHub) e formulário com nome, e-mail e mensagem, enviado por e-mail.
 
 **Identidade visual:** tema escuro com base preta (`#050505`), tons de cinza e verde-esmeralda (`#34D399`) como cor de destaque. A tipografia combina *Space Grotesk* (títulos), *Inter* (texto) e *JetBrains Mono* (detalhes técnicos), para um visual limpo, profissional e ligado à área de desenvolvimento.
 

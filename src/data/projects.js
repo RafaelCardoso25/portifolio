@@ -75,8 +75,8 @@ export const projects = [
     date: '2026-09-10',
     period: { pt: 'Set 2026 — Atual', en: 'Sep 2026 — Present' },
     description: {
-      pt: 'Sites institucionais responsivos que desenvolvo pela minha empresa para apresentar a negócios locais, como clínicas e oficinas: páginas de serviços, perguntas frequentes, botão de WhatsApp, mapa e formulário de contato, publicados na Vercel.',
-      en: 'Responsive business websites my company builds to pitch to local businesses such as clinics and auto shops: service pages, FAQ, WhatsApp button, map and contact form, deployed on Vercel.',
+      pt: 'Sites institucionais responsivos que desenvolvo pela ScaleUp para apresentar a negócios locais, como clínicas e oficinas: páginas de serviços, perguntas frequentes, botão de WhatsApp, mapa e formulário de contato, publicados na Vercel.',
+      en: 'Responsive business websites ScaleUp builds to pitch to local businesses such as clinics and auto shops: service pages, FAQ, WhatsApp button, map and contact form, deployed on Vercel.',
     },
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Vercel'],
     image: '/projects/sites.gif',

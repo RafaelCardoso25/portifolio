@@ -21,7 +21,7 @@ export const translations = {
       label: '01 — Sobre Mim',
       title: 'Construindo software que resolve problemas reais de empresas.',
       paragraphs: [
-        'Sou estudante do 2º período de Engenharia de Software na PUC Minas, em Belo Horizonte. Hoje tenho minha própria empresa de desenvolvimento, onde crio sistemas web, sites institucionais e automações para outras empresas.',
+        'Sou estudante do 2º período de Engenharia de Software na PUC Minas, em Belo Horizonte. Hoje tenho minha própria empresa de desenvolvimento, a ScaleUp, onde crio sistemas web, sites institucionais e automações para outras empresas.',
         'Meus projetos nascem de problemas do dia a dia: acompanhar indicadores de desempenho, comparar orçamentos de fornecedores, controlar despesas e eliminar tarefas repetitivas com automações em Python.',
         'Quero me aprofundar em programação, principalmente em Java e Python, e conhecer novas tecnologias de desenvolvimento. Meu objetivo é fazer minha empresa crescer e viver dela, e também busco um estágio para ganhar experiência de mercado e evoluir meus conhecimentos técnicos.',
       ],
@@ -122,7 +122,7 @@ export const translations = {
       label: '01 — About Me',
       title: 'Building software that solves real business problems.',
       paragraphs: [
-        "I'm a second-semester Software Engineering student at PUC Minas, in Belo Horizonte, Brazil. I run my own development company, where I build web systems, business websites and automations for other companies.",
+        "I'm a second-semester Software Engineering student at PUC Minas, in Belo Horizonte, Brazil. I run my own development company, ScaleUp, where I build web systems, business websites and automations for other companies.",
         'My projects come from everyday problems: tracking performance indicators, comparing supplier quotes, managing expenses and removing repetitive work with Python automations.',
         'I want to go deeper into programming, especially Java and Python, and keep learning new development technologies. My goal is to grow my company and make a living from it, and I am also looking for an internship to gain industry experience and strengthen my technical skills.',
       ],

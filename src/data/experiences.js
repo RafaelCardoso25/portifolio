@@ -2,13 +2,13 @@ export const experiences = [
   {
     id: 'empresa',
     type: 'work',
-    organization: { pt: 'Empresa própria de desenvolvimento', en: 'Own software development company' },
+    organization: { pt: 'ScaleUp', en: 'ScaleUp' },
     role: { pt: 'Fundador e Desenvolvedor', en: 'Founder & Developer' },
     period: { pt: '2026 — Atual', en: '2026 — Present' },
     current: true,
     description: {
-      pt: 'Desenvolvo sistemas web, sites institucionais e automações para empresas. Cuido de todo o processo: conversa com o cliente, levantamento de requisitos, design, desenvolvimento, publicação e suporte.',
-      en: 'I build web systems, business websites and automations for companies. I handle the whole process: client meetings, requirements, design, development, deployment and support.',
+      pt: 'Fundei a ScaleUp, minha empresa de desenvolvimento, onde crio sistemas web, sites institucionais e automações para empresas. Cuido de todo o processo: conversa com o cliente, levantamento de requisitos, design, desenvolvimento, publicação e suporte.',
+      en: 'I founded ScaleUp, my software development company, where I build web systems, business websites and automations for companies. I handle the whole process: client meetings, requirements, design, development, deployment and support.',
     },
     tags: ['React', 'JavaScript', 'Python', 'Supabase', 'Vercel'],
   },
